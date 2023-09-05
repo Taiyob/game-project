@@ -185,6 +185,7 @@ nav li a{
     justify-content: center;
     gap: 100px;
     height: 90vh;
+    margin-bottom: 50px;
 }
 .play-content{
     /* border: 1px solid hotpink; */
@@ -234,4 +235,28 @@ nav li a{
 .talking-angel img{
     height: 40%;
     width: 40%;
+}
+/*games*/
+.game{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 30px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.game-btn{
+    display: inline-flex;
+    padding: 5px 5px;
+    border-radius: 48px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 700;
+}
+.game-btn img{
+    width: 20%;
+}
+.action{
+    margin-top: 20px;
+    color: #0B0223;
+    font-size: 12px;
 }
