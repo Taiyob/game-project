@@ -169,11 +169,41 @@ nav li a{
 }
 .online-content{
     max-width: 250px;
+    position: relative;
 }
 .online-content img{
     width: 100%;
+    height: auto;
     border-radius: 16px;
 }
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .90s ease;
+    border-radius: 16px;
+    border: 4px solid var(--Linear, #FF42A5);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),  lightgray 50% / cover no-repeat;
+  }
+.online-content:hover .overlay {
+    opacity: 0.8;
+  }
 .online-content p{
     color: #534C64;
     font-size: 14px;
@@ -212,6 +242,15 @@ nav li a{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+#no-download-install{
+    text-align: right;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0B0223 !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 .play-content p{
     color: #534C64;
