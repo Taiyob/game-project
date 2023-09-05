@@ -51,6 +51,42 @@ nav li a{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
-.icon-link{
-    fill: #F61C0D;
+/*banner styles*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.banner-content{
+    background: url('../images/Group\ 14.png'), lightgray 50% / cover no-repeat, cover; 
+}
+.banner-content h4{
+    color: #0B0223;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content p{
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-content p a {
+    text-decoration: none;
+}
+.banner-image img{
+    width: 100%;
 }
