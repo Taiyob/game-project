@@ -126,6 +126,9 @@ nav li a{
     text-transform: uppercase;
 }
 /*online store*/
+.online-store{
+    margin-bottom: 50px;
+}
 .online-store h2,p{
     margin: 0 auto;
     text-align: center;
@@ -175,4 +178,60 @@ nav li a{
     font-size: 14px;
     font-weight: 500;
     line-height: 15px; 
+}
+/*only play no download*/
+.play-section-no-download{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 90vh;
+}
+.play-content{
+    /* border: 1px solid hotpink; */
+    max-width: 300px;
+    height: 100%;
+    margin: 100px 0;
+    margin-right: 30px;
+}
+.play-content h3{
+    text-align: right;
+    font-size: 36px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content > h3 > .no-download-install{
+    text-align: right;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0B0223 !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content p{
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+}
+.play-video{
+    max-width: 500px;
+}
+.play-video img{
+    width: 100%;
+    border-radius: 8px;
+}
+.talking-angel{
+    border-radius: 8px;
+    /* border: 10px solid #FFF; */
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+}
+.talking-angel img{
+    height: 40%;
+    width: 40%;
 }
