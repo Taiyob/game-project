@@ -13,6 +13,7 @@ header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 0px 150px;
+    margin-bottom: 50px;
 }
 nav{
     display: flex;
@@ -123,4 +124,55 @@ nav li a{
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+}
+/*online store*/
+.online-store h2,p{
+    margin: 0 auto;
+    text-align: center;
+}
+.online-store h2{
+    color: #0B0223;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-store h2 .funny{
+    color: #0B0223; 
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-store p{
+    color: #534C64;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.online-store-image-content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.online-content{
+    max-width: 250px;
+}
+.online-content img{
+    width: 100%;
+    border-radius: 16px;
+}
+.online-content p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px; 
 }
