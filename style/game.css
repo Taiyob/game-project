@@ -65,6 +65,7 @@ nav li a{
 }
 .banner-content{
     background: url('../images/Group\ 14.png'), lightgray 50% / cover no-repeat, cover;
+    padding-bottom: 50px;
 }
 .banner-content h4{
     color: #0B0223;
@@ -72,7 +73,6 @@ nav li a{
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 .banner-content h1{
     text-align: center;
@@ -90,6 +90,7 @@ nav li a{
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
+    margin-bottom: 20px;
 }
 .banner-content p a {
     text-decoration: none;
